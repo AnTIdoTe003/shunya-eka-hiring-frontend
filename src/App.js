@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './components/Home/Home'
 
 
-axios.defaults.baseURL = 'http://localhost:4000'
+axios.defaults.baseURL = 'https://shunya-eka-hiring-backend.vercel.app/'
 axios.defaults.withCredentials = true
 
 const App = () => {
